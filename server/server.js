@@ -15,4 +15,4 @@ app.get('/' , (req,res) => {
 
 const port = process.envPORT || 4000
 
-app.listen(4000, () => console.log(`server running on 4000`))
+app.listen(port, () => console.log(`server running on ${port}`))
