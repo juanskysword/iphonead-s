@@ -5,13 +5,39 @@
 }
 
 body {
-    background-color: blue;
+    background-image:url('https://cdn.slashgear.com/wp-content/uploads/2018/06/iPhone-3GS-740x542.jpg');
+    background-repeat: no-repeat;
+    background-size:cover
+
 }
 
 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
     color: black;
 }
 
-p{
+p {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow; 
     color: black;
+    text-align: center;
+    text-decoration: solid;
+}
+
+.but {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: black;
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;   
 }
